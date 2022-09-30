@@ -1,0 +1,144 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.logo {
+  margin-bottom: -2em;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+
+
+.NewItemForm {
+  position: relative;
+  left: 8.5%
+}
+
+.SignUpForm{
+  position: relative;
+  left: 8.5%
+}
+
+.LoginForm {
+  position: relative;
+  left: 8.5%
+}
+
+.container1 {
+  height: 100%;
+}
+
+.container2 {
+  height: 100%;
+}
+
+.App {
+  height: 100%;
+}
+.HomePage {
+  font-size: 10em;
+  height: 100%;
+  background-color: lightgrey;
+
+}
+
+#ViewItemsbutton {
+  background-color: #151515;
+  color: #5CBFEB;
+}
+
+#Register {
+  background-color: #151515;
+  color: #5CBFEB;
+
+
+}
+
+.navbar-inverse .navbar-brand {
+  align-items: center;
+  display: flex;
+}
+
+.navbar-inverse .navbar-brand img{
+  box-shadow: 5px 5px 5px 5px 1 black;
+  padding-top: 10px;
+  max-width: 500%;
+  max-height: 500%;
+}
+/* navbar */
+.navbar-inverse {
+    background-color: #151515;
+    border-color: #E7E7E7;
+}
+/* Title */
+.navbar-inverse .navbar-brand {
+    color: #5CBFEB;
+}
+
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
+    color: #006998;
+}
+/* Link */
+.navbar-inverse .navbar-nav > li > a {
+    color: #5CBFEB;
+}
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+    color: #006998;
+}
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+    color: #555;
+    background-color: #E7E7E7;
+}
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus {
+    color: #555;
+    background-color: #D5D5D5;
+}
+
+.navbar-inverse .navbar-nav > .open > a .caret,
+.navbar-inverse .navbar-nav > .open > a:hover .caret,
+.navbar-inverse .navbar-nav > .open > a:focus .caret {
+    border-top-color: #555;
+    border-bottom-color: #555;
+}
+/* Mobile version */
+.navbar-inverse .navbar-toggle {
+    border-color: #DDD;
+}
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+    background-color: #DDD;
+}
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #CCC;
+}
